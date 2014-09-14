@@ -1,9 +1,9 @@
 package scala.slick
 package migration.api
 
-import scala.slick.driver.JdbcDriver
-import scala.slick.ast.{ FieldSymbol, Node, TableNode }
-import scala.slick.lifted.{ AbstractTable, Column, ForeignKey, ForeignKeyQuery, Index, PrimaryKey, TableQuery }
+import driver.JdbcDriver
+import ast.{ FieldSymbol, Node, TableNode }
+import lifted.{ AbstractTable, Column, ForeignKey, ForeignKeyQuery, Index, PrimaryKey, TableQuery }
 
 /**
  * Internal data structure that stores schema manipulation operations to be performed on a table
